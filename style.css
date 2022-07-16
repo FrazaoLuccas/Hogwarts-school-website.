@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yusei Magic', sans-serif;
+    max-height: 800px;
+ 
+}
+
+
+.clear{
+    clear: both;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+header{
+  min-height: 80px;
+    z-index: 0;
+    position: fixed;
+    width: 100%;
+   
+    background-color: rgb(26, 40, 69, 0.3);
+   
+}
+
+.logotipo{
+    float: left;
+    height: 68px;
+    width: 130px;
+ 
+    background-image: url(images/hoglogo-removebg-preview.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.desktop{
+    float: right;
+    align-items:center;
+
+}
+
+.desktop ul li{
+    float: left;
+    list-style-type: none;
+    margin: 28px 15px;
+}
+
+
+
+.desktop ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+
+.banner{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    top: -80px;
+    min-height: 1000px;
+
+    background-image: url(images/hog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.banner > .container{
+    max-width: 1100px;
+}
+
+.chamada {
+    max-width: 400px;
+    height: 250px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+.chamada h2{
+    text-align: center;
+    font-size: 40px;
+    color:#5e000e;
+}
+
+.chamada button{
+    height: 50px;
+    width: 130px;
+    background-color:#5e000e;
+    margin-top: 15px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.notas{
+  position: absolute;
+    z-index: 2;
+    top: 480px;
+  width: 100%;
+
+    background-color: rgb(26, 40, 69, 0.3);
+
+}
+
+.mat1{
+
+margin: 20px 50px;
+
+}
+
+.mat1 input{
+    margin: 10px 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+    height: 30px;
+    
+}
+
+.mat1 p:nth-of-type(1){
+margin-left: 30px;
+font-size: 20px;
+
+color: #868691;
+}
+
+.mat1 p:nth-of-type(2){
+    display: inline-block;
+    margin-left: 30px;
+    color:#868691;
+}
+
